@@ -526,10 +526,10 @@ static const Rule rules[] = {
 	RULE(.class = "Gimp", .tags = 1 << 4)
 	RULE(.class = "scrcpy", .tags = 1 << 6, .isfloating = 1)
 	RULE(.class = "Firefox", .tags = 1 << 7)
-	RULE(.class = "Zotereo", .tags = 1 << 3)
+	RULE(.class = "Zotero", .tags = 1 << 3)
+  RULE(.class = "Zotero", .instance = "Alert", .isfloating = 1)
 	RULE(.class = "Okular", .tags = 1 << 5)
 	RULE(.class = "TelegramDesktop", .tags = 1 << 6)
-
 	#if RENAMED_SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .scratchkey = 's', .isfloating = 1)
 	#elif SCRATCHPADS_PATCH
