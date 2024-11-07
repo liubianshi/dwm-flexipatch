@@ -1705,7 +1705,7 @@
 #define WARP_PATCH 1
 
 /*
- * windowrolerule ❌ ---------------------------------------------------- {{{2
+ * windowrolerule 🌟 ---------------------------------------------------- {{{2
  * Sometimes a single application opens different windows depending on the task
  * at hand and this is often reflected in the WM_WINDOW_ROLE(STRING) x property.
  * This patch adds the role field to the rule configuration so that one can
@@ -1713,7 +1713,7 @@
  * or Google-chrome "browser" vs "pop-up".
  * https://github.com/bakkeby/patches/blob/master/dwm/dwm-windowrolerule-6.2.diff
  */
-#define WINDOWROLERULE_PATCH 0
+#define WINDOWROLERULE_PATCH 1
 
 /*
  * winview ❌ ----------------------------------------------------------- {{{2

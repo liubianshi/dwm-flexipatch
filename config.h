@@ -530,6 +530,7 @@ static const Rule rules[] = {
   RULE(.class = "Zotero", .instance = "Alert", .isfloating = 1)
 	RULE(.class = "Okular", .tags = 1 << 5)
 	RULE(.class = "TelegramDesktop", .tags = 1 << 6)
+  RULE(.role = "pop-up", .isfloating = 1)
 	#if RENAMED_SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .scratchkey = 's', .isfloating = 1)
 	#elif SCRATCHPADS_PATCH
