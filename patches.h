@@ -1103,7 +1103,7 @@
  * This is to prevent you accidentally losing all your work.
  * https://dwm.suckless.org/patches/onlyquitonempty/
  */
-#define ONLYQUITONEMPTY_PATCH 1
+#define ONLYQUITONEMPTY_PATCH 0
 
 /*
  * pertab 🌟 ------------------------------------------------------------ {{{2
